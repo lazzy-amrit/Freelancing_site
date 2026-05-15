@@ -9,26 +9,18 @@ export default function Contact({ darkMode }) {
     <section
       className={`
         py-28 px-6 md:px-12 transition-colors duration-500
-
-        ${darkMode
-          ? "bg-black text-white"
-          : "bg-white text-black"}
+        ${darkMode ? "bg-black text-white" : "bg-white text-black"}
       `}
     >
-
       <div className="max-w-7xl mx-auto">
 
         {/* TOP */}
-
         <div className="text-center max-w-3xl mx-auto mb-20">
 
           <p
             className={`
               uppercase tracking-[4px] text-sm mb-5
-
-              ${darkMode
-                ? "text-gray-400"
-                : "text-gray-600"}
+              ${darkMode ? "text-gray-400" : "text-gray-600"}
             `}
           >
             For More Details
@@ -43,10 +35,7 @@ export default function Contact({ darkMode }) {
           <p
             className={`
               mt-6 text-lg leading-relaxed
-
-              ${darkMode
-                ? "text-gray-400"
-                : "text-gray-600"}
+              ${darkMode ? "text-gray-400" : "text-gray-600"}
             `}
           >
             Connect with Narender Digitals through YouTube,
@@ -57,15 +46,14 @@ export default function Contact({ darkMode }) {
         </div>
 
         {/* BUTTONS */}
-
         <div className="flex flex-wrap justify-center gap-5 mb-20">
 
           <a
             href="https://www.youtube.com/@Narinderkaur-j4x"
             target="_blank"
+            rel="noreferrer"
             className={`
               px-8 py-4 rounded-full border flex items-center gap-3 transition duration-300 hover:-translate-y-1
-
               ${darkMode
                 ? "bg-white/5 border-white/10 hover:bg-white hover:text-black"
                 : "bg-black/5 border-black/10 hover:bg-black hover:text-white"}
@@ -75,11 +63,13 @@ export default function Contact({ darkMode }) {
             YouTube
           </a>
 
+          {/* WHATSAPP FIXED */}
           <a
-            href="#"
+            href="https://wa.me/34722344019?text=Hi%20Narender%20Digitals"
+            target="_blank"
+            rel="noreferrer"
             className={`
               px-8 py-4 rounded-full border flex items-center gap-3 transition duration-300 hover:-translate-y-1
-
               ${darkMode
                 ? "bg-white/5 border-white/10 hover:bg-white hover:text-black"
                 : "bg-black/5 border-black/10 hover:bg-black hover:text-white"}
@@ -89,11 +79,11 @@ export default function Contact({ darkMode }) {
             WhatsApp
           </a>
 
+          {/* PHONE FIXED */}
           <a
-            href="#"
+            href="tel:+34722344019"
             className={`
               px-8 py-4 rounded-full border flex items-center gap-3 transition duration-300 hover:-translate-y-1
-
               ${darkMode
                 ? "bg-white/5 border-white/10 hover:bg-white hover:text-black"
                 : "bg-black/5 border-black/10 hover:bg-black hover:text-white"}
@@ -106,17 +96,14 @@ export default function Contact({ darkMode }) {
         </div>
 
         {/* DETAILS */}
-
         <div
           className={`
             rounded-[35px] p-8 md:p-12 border mb-16
-
             ${darkMode
               ? "bg-white/5 border-white/10"
               : "bg-black/5 border-black/10"}
           `}
         >
-
           <h3 className="text-3xl font-bold mb-8">
             Contact Details
           </h3>
@@ -124,10 +111,7 @@ export default function Contact({ darkMode }) {
           <div
             className={`
               space-y-6 text-lg leading-relaxed
-
-              ${darkMode
-                ? "text-gray-300"
-                : "text-gray-700"}
+              ${darkMode ? "text-gray-300" : "text-gray-700"}
             `}
           >
 
@@ -139,6 +123,7 @@ export default function Contact({ darkMode }) {
               <a
                 href="https://www.youtube.com/@Narinderkaur-j4x"
                 target="_blank"
+                rel="noreferrer"
                 className="underline break-all"
               >
                 youtube.com/@Narinderkaur-j4x
@@ -149,49 +134,34 @@ export default function Contact({ darkMode }) {
               <p className="font-semibold mb-1">
                 WhatsApp
               </p>
-
-              <p>
-                +34 722344019
-              </p>
+              <p>+34 722344019</p>
             </div>
 
             <div>
               <p className="font-semibold mb-1">
                 Mobile Number
               </p>
-
-              <p>
-                +34 722344019
-              </p>
+              <p>+34 722344019</p>
             </div>
 
           </div>
-
         </div>
 
         {/* REVIEWS */}
-
         <div className="grid md:grid-cols-2 gap-8">
-
-          {/* REVIEW 1 */}
 
           <div
             className={`
               rounded-[30px] p-8 border
-
               ${darkMode
                 ? "bg-white/5 border-white/10"
                 : "bg-black/5 border-black/10"}
             `}
           >
-
             <p
               className={`
                 text-lg leading-relaxed italic
-
-                ${darkMode
-                  ? "text-gray-300"
-                  : "text-gray-700"}
+                ${darkMode ? "text-gray-300" : "text-gray-700"}
               `}
             >
               “Professional communication and very supportive
@@ -203,41 +173,29 @@ export default function Contact({ darkMode }) {
               <h4 className="font-semibold text-xl">
                 Aman Sharma
               </h4>
-
               <p
                 className={`
                   mt-1
-
-                  ${darkMode
-                    ? "text-gray-400"
-                    : "text-gray-600"}
+                  ${darkMode ? "text-gray-400" : "text-gray-600"}
                 `}
               >
                 Freelancer
               </p>
             </div>
-
           </div>
-
-          {/* REVIEW 2 */}
 
           <div
             className={`
               rounded-[30px] p-8 border
-
               ${darkMode
                 ? "bg-white/5 border-white/10"
                 : "bg-black/5 border-black/10"}
             `}
           >
-
             <p
               className={`
                 text-lg leading-relaxed italic
-
-                ${darkMode
-                  ? "text-gray-300"
-                  : "text-gray-700"}
+                ${darkMode ? "text-gray-300" : "text-gray-700"}
               `}
             >
               “Narender Digitals helped us connect with
@@ -249,26 +207,20 @@ export default function Contact({ darkMode }) {
               <h4 className="font-semibold text-xl">
                 Priya Verma
               </h4>
-
               <p
                 className={`
                   mt-1
-
-                  ${darkMode
-                    ? "text-gray-400"
-                    : "text-gray-600"}
+                  ${darkMode ? "text-gray-400" : "text-gray-600"}
                 `}
               >
                 Agency Collaboration
               </p>
             </div>
-
           </div>
 
         </div>
 
       </div>
-
     </section>
   );
 }
