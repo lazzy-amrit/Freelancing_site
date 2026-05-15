@@ -151,7 +151,7 @@ export default function Contact({ darkMode }) {
               </p>
 
               <p>
-                Add WhatsApp Number Here
+                +34 722344019
               </p>
             </div>
 
@@ -161,7 +161,7 @@ export default function Contact({ darkMode }) {
               </p>
 
               <p>
-                Add Mobile Number Here
+                +34 722344019
               </p>
             </div>
 
